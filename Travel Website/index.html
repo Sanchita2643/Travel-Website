@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--===============FAVICON=====================-->
+    <link rel= "shortcut icon" href="images/favicon.png">
+    <!--===============REMIXICONS==================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+   
+    <!--============CSS===========-->
+ <link rel="stylesheet" href="style.css">
+
+ <title>Travel Website</title>
+</head>
+<!--===============Audio===============-->
+<body>
+    <audio id="song">
+        <source src="audio.mp3">
+    </audio>
+    <!--===========HEADER=============-->
+ <header class="header" id="header">
+    <nav class="nav container"> 
+        <a href="#" class="nav__logo">
+            Travel
+        </a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#popular" class="nav__link">Popular</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#explore" class="nav__link">Explore</a>
+                </li>
+
+            </ul>
+            <!--========Close button=========-->
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+            </div>
+        </div>
+
+        <!--===========Toggle Button=============-->
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+        </div>   
+    </nav>
+    </header> 
+
+ <!--==================== MAIN ====================-->
+ <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+       <img src="images/home.jpg" alt="home image" class="home__bg">
+       <div class="home__shadow"></div>
+
+       <div class="home__container container grid">
+        <div class="home__data">
+            <h3 class="home__subtitle">
+               Step Into Adventure!
+            </h3>
+
+            <h1 class="home__title">
+                Travel<br>
+                The World
+            </h1>
+
+            <p class="home__description">
+                Explore the world's beauty, from alluring islands to breathtaking mountains, and create unforgettable memories. Plan your trip now!
+
+            </p>
+
+            <a href="#" class="button">
+                Start Your Journey <i class="ri-arrow-right-line"></i>
+            </a>
+        </div>
+
+        <div class="home__cards grid">
+            <article class="home__card">
+                <img src="images/california.jpg" alt="home image" class="home__card-img">
+                <h3 class="home__cards-title">California</h3>
+                <div class="home__card-shadow"></div>
+            </article>
+            
+            <article class="home__card">
+                <img src="images/florida.jpg" alt="home image" class="home__card-img">
+                <h3 class="home__cards-title">Florida</h3>
+                <div class="home__card-shadow"></div>
+            </article>
+            
+            <article class="home__card">
+                <img src="images/dubai.jpg" alt="home image" class="home__card-img">
+                <h3 class="home__cards-title">Dubai</h3>
+                <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+                <img src="images/brazil.jpg" alt="home image" class="home__card-img">
+                <h3 class="home__cards-title">Brazil</h3>
+                <div class="home__card-shadow"></div>
+            </article>
+
+            
+        </div>
+       </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+       <div class="about__container grid">
+        <div class="about__data">
+            <h2 class="section__title">
+                Discover Further <br> About Travel
+            </h2>
+
+            <p class="about__description">
+                Travel embraces the world's diversity, unlocking the wonders of different lands and their unique traditions. Interacting with diverse cultures cultivates empathy and interconnectedness, fostering respect and tolerance. Travel challenges preconceptions, build resilience, and creates everlasting memories. Become a global citizen, embracing the transformative power of travel and opening your heart to infinite possibilities.
+            </p>
+            
+        </div>
+
+        <div class="about__image">
+            <img src="images/about.jpg" alt="about image" class="about__img">
+            <div class="about__shadow"></div>
+        </div>
+       </div>
+    </section>
+
+    <!--==================== POPULAR ====================-->
+    <section class="popular section" id="popular">
+       <h2 class="section__title">
+        Unveil Some Popular <br> Destinations Around The Globe     
+       </h2>
+
+       <div class="popular__container container grid">
+        <article class="popular__card">
+            <div class="popular__image">
+                <img src="images/pantai-or-Indonesia.jpg" alt="popular image" class="popular__img">
+                <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">
+                Pantai Ora
+            </h2>
+            <div class="popular__location">
+                <i class="ri-map-pin-line"></i>
+                <span>Indonesia</span>
+            </div>
+        </article>
+
+        <article class="popular__card">
+            <div class="popular__image">
+                <img src="images/france.jpg" alt="popular image" class="popular__img">
+                <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">
+                Provence
+            </h2>
+            <div class="popular__location">
+                <i class="ri-map-pin-line"></i>
+                <span>France</span>
+            </div>
+        </article>
+
+        <article class="popular__card">
+            <div class="popular__image">
+                <img src="images/mount-kilimanjaro.jpg" alt="popular image" class="popular__img">
+                <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">
+                Mount Kilimanjaro
+            </h2>
+            <div class="popular__location">
+                <i class="ri-map-pin-line"></i>
+                <span>Africa</span>
+            </div>
+        </article>
+        
+        <article class="popular__card">
+            <div class="popular__image">
+                <img src="images/Victoria-Falls-Zimbabwe.jpg" alt="popular image" class="popular__img">
+                <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">
+                 Victoria Falls
+            </h2>
+            <div class="popular__location">
+                <i class="ri-map-pin-line"></i>
+                <span>Zimbabwe</span>
+            </div>
+        </article>
+
+        <article class="popular__card">
+            <div class="popular__image">
+                <img src="images/forest.jpg" alt="popular image" class="popular__img">
+                <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">
+                 Ranthambore
+            </h2>
+            <div class="popular__location">
+                <i class="ri-map-pin-line"></i>
+                <span>India</span>
+            </div>
+        </article>
+
+        <article class="popular__card">
+            <div class="popular__image">
+                <img src="images/greece.jpg" alt="popular image" class="popular__img">
+                <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">
+                 Rhodes
+            </h2>
+            <div class="popular__location">
+                <i class="ri-map-pin-line"></i>
+                <span>Greece</span>
+            </div>
+        </article>
+       </div>
+    </section>
+    
+    <!--==================== EXPLORE ====================-->
+    <section class="explore section" id="explore">
+       <div class="explore__container">
+        <div class="explore__image">
+            <img src="images/explore.jpg" alt="explore image" class="explore__img">
+            <div class="explore__shadow"></div>
+        </div>
+
+        <div class="explore__content container grid">
+            <div class="explore__data">
+                <h2 class="section__title">
+                   Explore The <br> Top Edens
+                </h2>
+
+                <p class="explore__description">
+                    Exploring the world is an exciting journey that broadens horizons, embraces diverse perspectives, and fosters personal growth through unforgettable adventures and encounters. It's a transformative experience that reminds us of the vastness and beauty of our planet while connecting us to the global community.
+                </p>
+            </div>
+
+            <div class="explore__user">
+                <img src="images/Sanchita.jpg" alt="explorer image" class="explore__perfil">
+                <span class="explore__name">Sanchita Goel</span>
+            </div>
+        </div>
+       </div>
+    </section>
+    
+    <!--==================== JOIN ====================-->
+    <section class="join section">
+       <div class="join__container container grid">
+        <div class="join__data">
+            <h2 class="section__title">
+                Your Guide To <br> Safe Travels
+            </h2>
+
+            <p class="join__description">
+                Stay updated with the latest travel information.
+            </p>
+
+            <form action="" class="join__form">
+                <input type="email" placeholder="Enter your Email Id" class="join__input">
+
+                <button class="joint__button button">
+                    Subscribe To Our Newsletter <i class="ri-arrow-right-line"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="join__image">
+            <img src="images/join.jpg" alt="join image" class="join__img">
+            <div class="join__shadow"></div>
+        </div>
+       </div>
+    </section>
+ </main>
+
+ <!--==================== FOOTER ====================-->
+ <footer class="footer">
+    <div class="footer__container container grid">
+        <div class="footer__content grid">
+            <div>
+                <a href="#" class="footer__logo">Travel</a>
+
+                <p class="footer__description">
+                    Travel and explore the   <br> world without limits.
+                </p>
+            </div>
+
+            <div class="footer__data grid">
+                <div>
+                    <h3 class="footer__title">About</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News & Blogs</a>
+                            </li>
+                        </ul>
+                    
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">Company</h3>
+                            
+                    <ul class="footer__links">
+                         <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">History</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">Contacts</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Call Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">Support</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Terms & Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Payments</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__group">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-line"></i>
+                </a>
+    
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+    
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-twitter-line"></i>
+                </a>
+    
+                <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-youtube-line"></i>
+                </a>
+            </div>
+            <span class="footer__copy">
+                &#169; Copyright Sanchita Goel. All rights reserved.
+            </span>
+        </div>
+    </div>
+ </footer>
+
+ <!--========== SCROLL UP ==========-->
+ <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+ </a>
+
+ <!--=============== SCROLLREVEAL ===============-->
+ <script src="scroll_reveal.min.js"></script>
+
+ <!--=============== MAIN JS ===============-->
+ <script src="main.js"></script>
+</body>
+</html>

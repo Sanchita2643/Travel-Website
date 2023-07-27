@@ -1,0 +1,122 @@
+========== HEADER ==========
+.nav__logo
+Travel
+
+.nav__link
+Home - About - Popular - Explore
+
+
+========== HOME ==========
+.home__subtitle
+Step Into Adventure!
+
+.home__title
+Travel <br>
+The World
+
+.home__description
+Explore the world's beauty, from alluring islands to breathtaking mountains, and create unforgettable memories. Plan your trip now!
+
+.button
+Start Your Journey
+
+.home__card-title
+California
+Florida
+Dubai
+Brazil
+
+========== ABOUT  ==========
+.section__title
+Discover Further <br>
+About Travel
+
+.about__description
+Travel embraces the world's diversity, unlocking the wonders of different lands and their unique traditions. Interacting with diverse cultures cultivates empathy and interconnectedness, fostering respect and tolerance. Travel challenges preconceptions, build resilience, and creates everlasting memories. Become a global citizen, embracing the transformative power of travel and opening your heart to infinite possibilities.
+
+========== POPULAR ==========
+.section__title
+Unveil Some Popular <br> Destinations Around The Globe     
+
+.popular__title .popular__location
+Pantai Ora
+Indonesia
+
+Provence
+France
+
+Mount Kilimanjaro
+Africa
+
+Victoria Falls
+Zimbabwe
+
+Ranthambore
+India
+
+Rhodes
+Greece
+
+
+========== EXPLORE ==========
+.section__title
+Explore The <br> Top Edens
+
+.explore__description
+Exploring the world is an exciting journey that broadens horizons, embraces diverse perspectives, and fosters personal growth through unforgettable adventures and encounters. It's a transformative experience that reminds us of the vastness and beauty of our planet while connecting us to the global community.
+                
+.explore__name
+Sanchita Goel
+
+
+========== JOIN ==========
+.section__title
+Your Guide To <br> Safe Travels
+
+.join__description
+Stay updated with the latest travel information.
+
+.join__input placeholder
+Enter your email
+
+.join__button
+Subscribe To Our Newsletter
+
+
+========== FOOTER ==========
+.footer__logo
+Travel
+
+.footer__description
+Travel and explore <br> 
+the world without limits.
+
+footer__title .footer__link
+About
+ About Us
+ Features
+ News & Blogs
+
+Company
+ FAQs
+ History
+ Testimonials
+
+Contact
+ Call Center
+ Support Center
+ Contact Us
+
+Support
+ Privacy Policy
+ Terms & Services
+ Payments
+
+.footer__social-link
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+https://www.youtube.com/
+
+.footer__copy
+&#169; Copyright Sanchita Goel. All rights reserved
